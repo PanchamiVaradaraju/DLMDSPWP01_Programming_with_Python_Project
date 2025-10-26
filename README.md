@@ -6,7 +6,7 @@ This Jupyter Notebook (`DLMDSPWP01_Programming_with_Python.ipynb`) finds the bes
 
 1.  **Loads Data:** Reads `train.csv`, `ideal.csv`, and `test.csv` from an uploaded ZIP file.
 2.  **Finds Best Fits:** For each function in `train.csv`, it selects the best matching function from `ideal.csv` using the least squares method.
-3.  **Maps Test Points:** It takes points from `test.csv` and assigns them to one of the selected ideal functions if they fall within a calculated deviation threshold ($\sqrt{2} \times \text{max\_deviation}$).
+3.  **Maps Test Points:** It takes points from `test.csv` and assigns them to one of the selected ideal functions if they fall within a calculated deviation threshold 
 4.  **Stores Results:** Saves the original data and the mapped test results into an SQLite database (`results.db`).
 5.  **Visualizes:** Creates plots (using Matplotlib and Bokeh) to show the training data, the chosen ideal functions, and how the test points were mapped.
 
